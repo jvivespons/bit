@@ -47,6 +47,7 @@ if(isset($_SESSION['username'])){
     <tr>
     <td style="padding: 10px;"><h1 align="center">Menú principal</h1></tr>
     <tr>
+<<<<<<< HEAD
     <td style="padding: 10px;"><div align="center"><a href="ranquing.php">Veure rànquing</a></td>
     </div>
     </tr>
@@ -72,11 +73,40 @@ if(isset($_SESSION['username'])){
     </tr>
     <tr>
     <td style="padding: 10px;"><div align="center"><a href="battle.php">Reptar oponent</a></td>
+=======
+    <td style="padding: 10px;"><div align="center"><a href="ranquing.php">Veure rànquing</a></t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Practicar codificació binaria
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Practicar codificació ascii
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Practicar codificació morse
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">El bit challenge
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Reptar oponent
+      </t2>
+>>>>>>> FETCH_HEAD
     </div>
     </tr>
     </table>
     
     <?php
+<<<<<<< HEAD
     
    $db_user= 'root';
 	$db_pass= 'root';
@@ -145,6 +175,8 @@ echo "</table>";
 
 
 mysqli_close($link);
+=======
+>>>>>>> FETCH_HEAD
 }else{
 
 $db_user= 'root';
@@ -171,6 +203,7 @@ while ($row = mysqli_fetch_array($result)) {
     <tr>
     <td style="padding: 10px;"><h1 align="center">Menú principal</h1></tr>
     <tr>
+<<<<<<< HEAD
     <td style="padding: 10px;"><div align="center"><a href="ranquing.php">Veure rànquing</a></td>
     </div>
     </tr>
@@ -271,6 +304,43 @@ echo "</table>";
 mysqli_close($link);
     
 }
+=======
+    <td style="padding: 10px;"><div align="center"><a href="ranquing.php">Veure rànquing</a></t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Practicar codificació binaria
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Practicar codificació ascii
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Practicar codificació morse
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">El bit challenge
+      </t2>
+    </div>
+    </tr>
+    <tr>
+    <td style="padding: 10px;"><div align="center">Reptar oponent
+      </t2>
+    </div>
+    </tr>
+    </table>
+
+  
+    <?php
+}
+
+mysqli_close($link);
+>>>>>>> FETCH_HEAD
 }
 ?>
 
