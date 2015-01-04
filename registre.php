@@ -9,7 +9,6 @@
         <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="app.css" rel="stylesheet" type="text/css" media="screen" />
 		
-<!-- Begin JavaScript -->
 
 		<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
 		<script type="text/javascript" src="lib/jquery.tools.js"></script>
@@ -48,7 +47,6 @@ if(isset($_SESSION['username'])){
     <tr>
     <td style="padding: 10px;"><h1 align="center">Menú principal</h1></tr>
     <tr>
-<<<<<<< HEAD
     <td style="padding: 10px;"><div align="center"><a href="ranquing.php">Veure rànquing</a></td>
     </div>
     </tr>
@@ -149,38 +147,6 @@ echo "</table>";
 mysqli_close($link);
     
     
-=======
-    <td style="padding: 10px;"><div align="center"><a href="ranquing.php">Veure rànquing</a></t2>
-    </div>
-    </tr>
-    <tr>
-    <td style="padding: 10px;"><div align="center">Practicar codificació binaria
-      </t2>
-    </div>
-    </tr>
-    <tr>
-    <td style="padding: 10px;"><div align="center">Practicar codificació ascii
-      </t2>
-    </div>
-    </tr>
-    <tr>
-    <td style="padding: 10px;"><div align="center">Practicar codificació morse
-      </t2>
-    </div>
-    </tr>
-    <tr>
-    <td style="padding: 10px;"><div align="center">El bit challenge
-      </t2>
-    </div>
-    </tr>
-    <tr>
-    <td style="padding: 10px;"><div align="center">Reptar oponent
-      </t2>
-    </div>
-    </tr>
-    </table>
-    <?php
->>>>>>> FETCH_HEAD
 }else{
 ?>
 <form action="login.php" method="post">
@@ -209,11 +175,7 @@ mysqli_close($link);
 </form>
 <?php
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> FETCH_HEAD
 ?>
                     </div>     
               </div>
