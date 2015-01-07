@@ -1,16 +1,3 @@
-bit
-===
-
-Binary Intensive Training is a learning tool to introduce students to some of
-the basics of Computational Thinking (abstraction, data representation, pattern
-recognision, etc.).
-
-You can deploy EL BIT on any webserver you're running, but we recommend using 
-APACHE. You'll also need a DBMS (Data Base Management System) to run this tool.
-We recommend using MySQL or MariaDB.
-
-Here you can find the initial databse schema (also avaiable in the file elbit.sql):
-
 CREATE DATABASE  IF NOT EXISTS `elbit` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `elbit`;
 -- MySQL dump 10.13  Distrib 5.6.13, for osx10.6 (i386)
@@ -85,32 +72,3 @@ CREATE TABLE `USERS` (
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2015-01-07 11:05:54
-
-
-
-LICENSE
-=======
-
-See COPYING.txt for the GNU GENERAL PUBLIC LICENSE
-
-COPYRIGHT AND PERMISSION NOTICE
-
-Copyright (c) 2014 - 2015, Jordi Vives Pons, <jvivespons@gmail.com>.
-
-All rights reserved.
-
-Permission to use, copy, modify, and distribute this software for any purpose
-with or without fee is hereby granted, provided that the above copyright
-notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN
-NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-OR OTHER DEALINGS IN THE SOFTWARE.
-
-Except as contained in this notice, the name of a copyright holder shall not
-be used in advertising or otherwise to promote the sale, use or other dealings
-in this Software without prior written authorization of the copyright holder.
