@@ -71,7 +71,35 @@ if(isset($_SESSION['username'])){
     <?php
 }else{
 	?>
-    <p>Encara no estàs registrat al sistema.</p>
+    <form action="newuser.php" method="post">
+<table align="center" width="100%" cellspacing="2" cellpadding="2" border="0">
+<tr>
+<td colspan="2" align="center" bgcolor=#cccccc>Alta de Nou Usuari</td>
+</tr>
+<tr><td width="40%"> </td></tr>
+<tr>
+<td align="right">Nom real: </td>
+<td ><input type="Text" name="realname" size="50" maxlength="50"></td>
+</tr>
+<tr>
+<td align="right">User Name: </td>
+<td ><input type="Text" name="username" size="50" maxlength="50"></td>
+</tr>
+<tr>
+<td align="right">Password: </td>
+<td><input type="password" name="password" size="50" maxlength="50"></td>
+</tr>
+<tr>
+<td align="right">Repeteix password: </td>
+<td ><input type="password" name="passwordrep" size="50" maxlength="50"></td>
+</tr>
+
+<tr>
+<BR>
+<td colspan="2" align="center"><input type="Submit" value="Alta"></td>
+</tr>
+</table>
+</form>
 <?php
 }
 ?>
